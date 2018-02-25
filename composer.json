@@ -1,0 +1,25 @@
+{
+    "name": "Diego21/blog",
+    "description": "Laravel Modular Blog",
+    "authors": [
+        {
+            "name": "Diego Lira",
+            "email": "lira.franca@yahoo.com.br"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Son\\Blog\\Providers\\BlogServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Son\\Blog\\": ""
+        }
+    }
+}
